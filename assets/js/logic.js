@@ -77,7 +77,25 @@ function makeButtons(make){
     }
 
     function answerSheet(){
-        
+        if (questions[questionNumber].answer== this.value){
+            //add point
+            console.log("answerSheet")
+        }else {
+            //subtract time from clock
+        }
+        questionNumber++;
+
+        if (questionNumber===questions.length){
+            //Go to Final Screen
+
+
+        }else{
+         showQuestion()
+
+         // Cannot read property 'answer' of undefined at HTMLButtonElement.answerSheet (logic.js:80)
+         
+        }
+
     }
 
     

@@ -19,5 +19,18 @@ var questions = [
         title: "Full Stack Web Developers can develop...",
         choices: ["Client Software", "Sever Software", "Virus Software", "Both A & B"],
         answer: "Both A & B"
+    },
+
+    {
+        title:"How many different tags does a header have?",
+        choices: ["One", "Three", "Five", "Six"],
+        answer: "Six"
+        
+    },
+
+    {
+        title: "Which of the following can you store in an Array",
+        choices: ["Other Arrays","Strings", "Booleans", "All of the Above"],
+        answer: "All of the Above"
     }
 ]
