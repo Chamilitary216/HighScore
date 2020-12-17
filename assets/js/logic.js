@@ -13,6 +13,10 @@ var secondsLeft = (questions.length)
 var answer;
 var questioNumber = -1;
 
-
-
+startBtn.addEventListener("click", startTimer);
+submitBtn.addEventListener("click", function (event) {
+    event.stopPropagation();
+    addScore();
+    window.location.href="./highscores.html"
+})
 
