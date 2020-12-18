@@ -4,6 +4,7 @@ var score;
 var interval;
 var answer;
 
+var gameOver = document.getElementById("end-screen")
 var questionTitle = document.getElementById("question-title")
 var startButton = document.getElementById("startBtn");
 var submitButton = document.getElementById("submitBtn");
@@ -87,6 +88,10 @@ function makeButtons(make){
 
         if (questionNumber===questions.length){
             //Go to Final Screen
+            function gameEnd(){
+                questionsEl.className = "hide";
+                gameEnd.className = "show";
+            }
 
 
         }else{
